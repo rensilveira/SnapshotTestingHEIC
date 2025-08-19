@@ -17,9 +17,7 @@ let package = Package(
             targets: ["SnapshotTestingHEIC"]),
     ],
     dependencies: [
-        .package(name: "swift-snapshot-testing",
-                 url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
-                 from: "1.17.4"),
+        .package(url: "https://github.com/rensilveira/swift-snapshot-testing", branch: "main"),
     ],
     targets: [
         .target(
